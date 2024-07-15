@@ -1,4 +1,5 @@
 import { HiOutlineSparkles } from 'react-icons/hi';
+import Input from './Input';
 function Feed() {
   return (
     <div className='max-w-xl flex-grow border-x border-gray-200 sm:ml-[73px] xl:ml-[370px] xl:min-w-[576px]'>
@@ -8,6 +9,7 @@ function Feed() {
           <HiOutlineSparkles size={20} />
         </div>
       </div>
+      <Input />
     </div>
   );
 }

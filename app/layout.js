@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Sidebar from './components/Sidebar';
+import Widgets from './components/Widgets';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
         <main className='mx-auto flex min-h-screen max-w-7xl'>
           <Sidebar />
           {children}
+          <Widgets />
         </main>
       </body>
     </html>

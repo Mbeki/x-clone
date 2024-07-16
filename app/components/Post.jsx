@@ -10,7 +10,7 @@ function Post({ post }) {
   return (
     <div className='flex cursor-pointer border-b border-gray-200 p-3'>
       {/* user mage */}
-      <div>
+      <div className='pt-3'>
         <Image
           src={post.userimg}
           g
@@ -22,7 +22,7 @@ function Post({ post }) {
       </div>
 
       {/* right side */}
-      <div className=''>
+      <div className='ml-1'>
         {/* Header */}
         <div className='flex items-center justify-between'>
           {/* user info */}

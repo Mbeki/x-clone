@@ -11,7 +11,7 @@ import { BsThreeDots } from 'react-icons/bs';
 
 function Sidebar() {
   return (
-    <div className='fixed hidden h-full flex-col p-2 sm:flex xl:items-start'>
+    <div className='fixed hidden h-full flex-col p-2 sm:flex xl:ml-24 xl:items-start'>
       {/* X logo */}
       <div className='hover-effect p-0 xl:px-1'>
         <Image

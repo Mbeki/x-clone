@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <main className='mx-auto flex min-h-screen max-w-7xl'>
+        <main className='mx-auto flex min-h-screen'>
           <Sidebar />
           {children}
           <Widgets />

@@ -13,7 +13,6 @@ function Post({ post }) {
       <div className='pt-3'>
         <Image
           src={post.userimg}
-          g
           alt='user'
           width={44}
           height={44}

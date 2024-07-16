@@ -2,6 +2,7 @@
 const nextConfig = {
   images: {
     domains: [
+      'lh3.googleusercontent.com',
       'sunwayuniversity.edu.my',
       'randomuser.me',
       'image.cnbcfm.com',

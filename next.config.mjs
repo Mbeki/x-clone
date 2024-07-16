@@ -2,6 +2,7 @@
 const nextConfig = {
   images: {
     domains: [
+      'randomuser.me',
       'image.cnbcfm.com',
       'res.cloudinary.com',
       'cdn.icon-icons.com',

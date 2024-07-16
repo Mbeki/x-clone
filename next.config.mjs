@@ -2,6 +2,7 @@
 const nextConfig = {
   images: {
     domains: [
+      'sunwayuniversity.edu.my',
       'randomuser.me',
       'image.cnbcfm.com',
       'res.cloudinary.com',

@@ -50,7 +50,10 @@ function Sidebar() {
           {/* Mini-profile */}
           <div className='hover-effect mt-auto flex items-center justify-center text-gray-700 xl:justify-start'>
             <Image
-              src='https://sm.ign.com/ign_ap/cover/a/avatar-gen/avatar-generations_hugw.jpg'
+              src={
+                session?.user?.image ||
+                'https://sm.ign.com/ign_ap/cover/a/avatar-gen/avatar-generations_hugw.jpg'
+              }
               alt='user'
               width={40}
               height={40}

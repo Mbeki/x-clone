@@ -7,7 +7,7 @@ function Feed() {
       id: '1',
       name: 'Nixon Mbeki',
       username: 'nixonmbeki',
-      userimg:
+      userImg:
         'https://sm.ign.com/ign_ap/cover/a/avatar-gen/avatar-generations_hugw.jpg',
       img: 'https://res.cloudinary.com/dja66bd2c/image/upload/v1720116864/cld-sample-4.jpg',
       text: 'Delicacy for a king',
@@ -17,7 +17,7 @@ function Feed() {
       id: '2',
       name: 'Wokila Kusina',
       username: 'wokilakusina',
-      userimage:
+      userImg:
         'https://sm.ign.com/ign_ap/cover/a/avatar-gen/avatar-generations_hugw.jpg',
       img: 'https://res.cloudinary.com/dja66bd2c/image/upload/v1720116860/samples/coffee.jpg',
       text: 'Drink out in the jungle',

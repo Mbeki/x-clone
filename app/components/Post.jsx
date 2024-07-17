@@ -12,7 +12,7 @@ function Post({ post }) {
       {/* user mage */}
       <div className='pt-3'>
         <Image
-          src={post.userimg}
+          src={post.userImg}
           alt='user'
           width={44}
           height={44}
